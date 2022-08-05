@@ -1,4 +1,2 @@
 # Reverse-Shell
 I made this 6 months ago as a hobby project to mess around with my friends. It incorporates sockets to establish a connection between the server and the client. The subprocess module was used to run shell commands using the function 'Popen' and the output of the command was returned and sent back to the server. An attempt was made to create some sort of updater so that the server could collect more information from the victim/client. Threading was incorporated to insure that different connections could be accepted at any time regardless of whether an operation is underway. These files were planted in shell:startup on 3 windows laptops through the mischevious use of social engineering. 
-
-Edit: I also should've mentioned that they were aware of it right after the plantation and were also explained the ability of the hack.
